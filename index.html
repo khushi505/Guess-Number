@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any Guess ?</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="assets/magician-hat.png" alt="" srcset="">
+        </div>
+        <div class="between"> Between 1 and 20</div>
+    </div>
+
+    <div class="guess_my">Guess My Number</div>
+    <div class="num_box">
+        <div class="number">?</div>
+    </div>
+    <main>
+        <section class="left">
+            <input type="number" class="guess"/> <br>
+            <button class="btn check">Check!</button>
+        </section>
+
+        <section class="mid">
+            <img id="win"></img>
+           </section>
+    
+
+        <section class="right">
+            <p class="message">Start Guessing...</p> 
+            <p class="label-score">Score: <span class="score">20</span></p>
+            <p class="label-highscore">High Score: <span class="highscore">0</span></p>
+        </section>
+
+       
+    </main>
+
+    <div class="dance">
+        <img src="assets/Vtj1-unscreen.gif" alt="" srcset="">
+    </div>
+
+
+    <div class="btn_again">
+        <button class="again">Again</button>
+    </div>
+   
+    
+</body>
+<script src="app.js"></script>
+</html>
